@@ -12,14 +12,14 @@ The Flipkart Clone is a full-fledged E-Commerce platform designed to replicate t
 	•	Make the project efficient, optimized, and industry-standard.
  
 Technology Stack
-Category	Technology
-Frontend	React.js (Next.js for SEO if needed), Tailwind CSS / Styled Components
-Backend	  Node.js (Express.js)
-Database	MySQL / MongoDB (if NoSQL is preferred)
-Authentication	JWT + OAuth (Google Login)
-Payment Gateway	Razorpay / Stripe
-State Management	Redux Toolkit / Context API
-Deployment	Vercel (Frontend) & Render / AWS (Backend)
+Category	 Technology
+Frontend	 React.js (Next.js for SEO if needed), Tailwind CSS / Styled Components
+Backend	         Node.js (Express.js)
+Database	 MySQL / MongoDB (if NoSQL is preferred)
+Authentication	 JWT + OAuth (Google Login)
+Payment Gateway	 Razorpay / Stripe
+State Management Redux Toolkit / Context API
+Deployment	 Vercel (Frontend) & Render / AWS (Backend)
 
 Core Features
 
@@ -55,15 +55,14 @@ API Endpoints (Backend Routes)
 
 Method	Endpoint	        Description
 POST	/api/auth/register	Register a new user
-POST	/api/auth/login	    Login user
-GET	  /api/products	      Fetch all products
-POST	/api/cart	          Add item to cart
+POST	/api/auth/login	        Login user
+GET	/api/products	        Fetch all products
+POST	/api/cart	        Add item to cart
 POST	/api/orders       	Place an order
-GET	  /api/orders/:id	    Get user orders
+GET	/api/orders/:id	        Get user orders
 
 Tools & Dependencies
-	
-  •	Frontend: React.js, Axios, Tailwind CSS, Redux Toolkit
+        •	Frontend: React.js, Axios, Tailwind CSS, Redux Toolkit
 	•	Backend: Express.js, JWT, bcrypt, Multer (for image uploads)
 	•	Database: MySQL (Sequelize ORM)
 	•	Payment Gateway: Razorpay / Stripe
